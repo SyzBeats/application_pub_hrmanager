@@ -1,0 +1,43 @@
+{
+  "employee": [
+    {
+      "_id": "10c680a4-cb0c-496d-b33b-eda7c6e35c0f",
+      "firstName": "Simeon",
+      "lastName": "Zimmermann",
+      "position": "developer",
+      "department": "MG",
+      "dob": null
+    },
+    {
+      "_id": "a11f0118-68c5-4e05-ab50-da47cc0add85",
+      "firstName": "Markus",
+      "lastName": "Schneider",
+      "position": "dev",
+      "department": "IT",
+      "dob": null
+    },
+    {
+      "_id": "2f9eb026-92c3-423f-8212-b0f884371819",
+      "firstName": "Fabian Theodor",
+      "lastName": "Fischer",
+      "position": "CTO",
+      "gender": "MALE",
+      "department": "HR",
+      "dob": "2020-10-02T00:00:00.000Z"
+    }
+  ],
+  "user": [
+    {
+      "email": "simeon@web.de",
+      "hash": "$2a$10$TcFMfOYIkISlqR6b3..rjO1BnZ91pKh016acBKxu/G4nVgvtg1srO"
+    },
+    {
+      "email": "simeon@webe.de",
+      "hash": "$2a$12$7hnVNEpqxpvP.RBXIzAvS.9PazkEb.d.LuhVfOnOO4lxVXBCE.pma"
+    },
+    {
+      "email": "simeon@gmail.com",
+      "hash": "$2a$12$8ZIfiPxVdAb7hq2mo3cu9upuKJ/oTBIWvrXLgnp5ViuCTSXucgdN."
+    }
+  ]
+}

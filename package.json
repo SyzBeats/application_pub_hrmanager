@@ -1,0 +1,32 @@
+{
+  "name": "application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "nodemon server/server.js",
+    "client": "npm start --prefix react-ui",
+    "install:client": "npm install --prefix react-ui",
+    "install:server": "npm install",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.18.2",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^15.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "lowdb": "^1.0.0",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.15",
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.6",
+    "jest": "26.6.0"
+  }
+}
